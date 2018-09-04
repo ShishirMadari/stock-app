@@ -1,0 +1,20 @@
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+@font-face {
+  font-family: 'Riesling';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Riesling'), local('Riesling'),
+       url('./assets/fonts/riesling.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+body {
+  font-family: 'Riesling';
+  background-image: url('./assets/images/casino.jpg');
+  background-repeat: no-repeat;
+  background-position: center right; 
+  filter: grayscale(0%); 
+}

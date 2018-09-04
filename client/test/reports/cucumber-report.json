@@ -1,0 +1,287 @@
+[
+  {
+    "description": "    As an internet user\n    In order efficiently raffle winners for a game night\n    I want to be able to submit contestant tickets and run raffle using e-raffle app",
+    "elements": [
+      {
+        "id": "entering-contestant-tickets-and-running-raffle-on-e-raffle-app;navigating-to-ticket-submission-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Navigating to Ticket Submission page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the E-Raffle app",
+            "result": {
+              "status": "passed",
+              "duration": 1797691642
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"submit tickets\"",
+            "result": {
+              "status": "passed",
+              "duration": 146871559
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the page updated to \"Ticket Submission\"",
+            "result": {
+              "status": "passed",
+              "duration": 39391557
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 135843185
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/node_modules/selenium-cucumber-js/runtime/world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "entering-contestant-tickets-and-running-raffle-on-e-raffle-app;submitting-contestant-tickets-successfully",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Submitting contestant tickets successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the E-Raffle app",
+            "result": {
+              "status": "passed",
+              "duration": 1638816541
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"submit tickets\"",
+            "result": {
+              "status": "passed",
+              "duration": 178599024
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Navigate to \"Ticket Submission\"",
+            "result": {
+              "status": "passed",
+              "duration": 34149986
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter name \"Shishir\"",
+            "result": {
+              "status": "passed",
+              "duration": 858752
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter tickets \"10\"",
+            "result": {
+              "status": "passed",
+              "duration": 722750
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"submit\"",
+            "result": {
+              "status": "passed",
+              "duration": 585466694
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see an alert saying \"Entry made!\"",
+            "result": {
+              "status": "passed",
+              "duration": 295347
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 185750554
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/node_modules/selenium-cucumber-js/runtime/world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "entering-contestant-tickets-and-running-raffle-on-e-raffle-app;submitting-tickets-but-no-participant",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Submitting tickets but no participant",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the E-Raffle app",
+            "result": {
+              "status": "passed",
+              "duration": 1803491848
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"submit tickets\"",
+            "result": {
+              "status": "passed",
+              "duration": 162634160
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Navigate to \"Ticket Submission\"",
+            "result": {
+              "status": "passed",
+              "duration": 43602120
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter tickets \"10\"",
+            "result": {
+              "status": "passed",
+              "duration": 718428
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"submit\"",
+            "result": {
+              "status": "passed",
+              "duration": 321570738
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see an alert saying \"Please enter a name and number of tickets\"",
+            "result": {
+              "status": "passed",
+              "duration": 99682
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/step-definitions/e-raffle-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 158092625
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/node_modules/selenium-cucumber-js/runtime/world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "entering-contestant-tickets-and-running-raffle-on-e-raffle-app",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Entering contestant tickets and running raffle on e-raffle app",
+    "tags": [],
+    "uri": "/Users/shishirmadari/Documents/Personal/technical/e-raffle/test/features/e-raffle.feature"
+  }
+]
